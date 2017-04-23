@@ -80,4 +80,21 @@ Sort will accommendate if the sort depth is too big
 it will change to heep sort 堆排序
 自适应算法，平时是快排，一定深度后会变成堆排序
 可怕！
+
+
+方法3 哈希表，不知道为什么hash_set一直不能用，还好发现可以用unordered_map
+    36ms, 63.20% 一样的效率，神奇的不行
+
+    bool containsDuplicate(vector<int> &nums)
+    {
+        unordered_map<int, int> map;
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            if(map.find(nums[i]) != map.end()) return true;
+            map[nums[i]] = nums[i];
+        }
+        return false;
+    }
+
+
 */
