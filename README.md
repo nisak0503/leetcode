@@ -4,3 +4,6 @@ Cheers, nisak!
 
 About the problems that have locks. Find a useful link here:
 http://www.cnblogs.com/robinalee/p/5185497.html
+
+About Array BackTracking problem, see this summary
+https://leetcode.com/problems/subsets/discuss/
