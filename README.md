@@ -7,3 +7,6 @@ http://www.cnblogs.com/robinalee/p/5185497.html
 
 About Array BackTracking problem, see this summary
 https://leetcode.com/problems/subsets/discuss/
+
+About BackTracking and Digui, see the blog:
+http://blog.csdn.net/u014772862/article/details/51789015
