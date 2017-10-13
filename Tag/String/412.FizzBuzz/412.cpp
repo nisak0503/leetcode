@@ -1,0 +1,38 @@
+class Solution {
+public:
+    vector<string> fizzBuzz(int n) {
+        vector<string> result;
+        for(int i = 1; i <= n; ++i)
+        {
+            if(i % 3 == 0)
+            {
+                if(i % 5 == 0)
+                {
+                    result.push_back("FizzBuzz");
+                }
+                else
+                {
+                    result.push_back("Fizz");
+                }
+            }
+            else
+            {
+                if(i % 5 == 0)
+                {
+                    result.push_back("Buzz");
+                }
+                else
+                {
+                    result.push_back(to_string(i));
+                }
+            }
+        }
+        return result;
+    }
+};
+
+
+/*
+3ms, 34.32%
+没啥要注意的，注意一下 to_string的用法吧
+*/
